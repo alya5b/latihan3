@@ -1,0 +1,49 @@
+* {
+	padding: 0;
+	margin: 4;
+	text-decoration: none;
+	outline: none;
+	background-color: lightblue;
+}
+
+/*navbar*/
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: left;
+	padding: 1.4rem 7%;
+	background-color: lightblue;
+	border-bottom: 3px solid #fcf7f5;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 9999;
+}
+
+.navbar .navbar-logo {
+	font-size: 2.5rem;
+	font-weight: 800;
+	color: white;
+	font-style: italic;
+	margin-left: 1%;
+	text-align: center;
+}
+
+.navbar .navbar-logo span {
+	color: white;
+}
+
+.navbar .navbar-nav a {
+	color: white;
+	display: inline-block;
+	font-size: 1.3rem;
+	margin: 0;
+	padding: 0.5rem;
+
+/*images*/
+.home img {
+	height: 300px;
+	width: 300px;
+}
+
